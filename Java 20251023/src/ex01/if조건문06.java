@@ -20,26 +20,21 @@ public class if조건문06 {
 		
 		if(age>65) {
 			fee = 0;
-		}else if(age>=20) {
+		}else if(age>=20 & age<65) {
 			rate = 0;
-		}else if (age>15) {
+		}else if (age>15 & age<20) {
 			rate =0.2;
-		}else if (age>7) {
+		}else if (age>7 & age <15) {
 		}else {
 			fee = 0;
 		}
 		
-		
-		fee= (int) (fee * (1-rate));
+		if(fee !=0) {
+			fee =(int)(fee * (1-rate));
+		}
 		
 			System.out.println("나이"+age +"살은 "+fee + "요금입니다");
 	
-		
-		
-		
-		
-		
-		
 		System.out.println("-----프로그램 종류-------");
 }
 }
