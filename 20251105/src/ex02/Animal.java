@@ -11,7 +11,7 @@ public class Animal {
 	}
 	
 	public void makeSound() {
-		System.out.println("-----동물 소리를 냅니다------- ");
+	System.out.println("-----동물 소리를 냅니다------- ");
 		}
 	public void showInfo() {
 		System.out.printf("이름: %s, 나이: %d살\n",name, age);
